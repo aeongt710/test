@@ -19,4 +19,4 @@ jobs:
     - name: Insrall Surge
       run: npm install -g surge 
     - name: Run Surge
-      run: surge ./test.surge.sh --token $ {{secrets.Surge_Token}}
+      run: surge ./test.surge.sh --token $ {{secrets.new}}
